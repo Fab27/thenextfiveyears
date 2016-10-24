@@ -16,7 +16,7 @@ $("section").each(function() {
         triggerElement: this, 
     })
     .setPin(this)
-    .addIndicators()
+    
     .addTo(ctrl);
  
 });
@@ -27,7 +27,7 @@ $("section").each(function() {
 		duration: 350,
 	})
 	.setPin(this)
-	.addIndicators()
+	
     .addTo(ctrl);
 })
 
